@@ -1,4 +1,4 @@
-photobooth:
+photobooth-test:
   replicaCount: 1
   image:
     repository: baloise-incubator/photobooth
@@ -7,7 +7,7 @@ photobooth:
     http:
       servicePort: 8080
       ingress:
-        host: photobooth.apps.okd.baloise.dev
+        host: photobooth-test.apps.okd.baloise.dev
   env:
     - name: TEST
       value: "this is just a test"
