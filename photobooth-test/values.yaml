@@ -2,7 +2,7 @@ photobooth-backend:
   replicaCount: 1
   image:
     repository: baloise-incubator/photobooth/photobooth-backend
-    tag: latest
+    tag: 23a58c714a6d3e04fdeccef1e692e253e21c5848
   network:
     http:
       servicePort: 8080
@@ -17,7 +17,7 @@ photobooth-frontend:
   replicaCount: 1
   image:
     repository: baloise-incubator/photobooth/photobooth-frontend
-    tag: latest
+    tag: 23a58c714a6d3e04fdeccef1e692e253e21c5848
   network:
     http:
       servicePort: 8080
