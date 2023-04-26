@@ -10,8 +10,8 @@ photobooth-backend:
         path: /api
         host: photobooth-test.apps.okd.baloise.dev
   env:
-    - name: TEST
-      value: "this is just a test"
+    - name: TESSDATA_PREFIX
+      value: "tessdata"
 
 photobooth-frontend:
   replicaCount: 1
