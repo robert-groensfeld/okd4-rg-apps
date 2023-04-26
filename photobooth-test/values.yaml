@@ -1,7 +1,7 @@
 photobooth-backend:
   replicaCount: 1
   image:
-    repository: baloise-incubator/photobooth/photobooth-backend
+    repository: photobooth/photobooth-backend
     tag: 23a58c714a6d3e04fdeccef1e692e253e21c5848
   network:
     http:
@@ -16,7 +16,7 @@ photobooth-backend:
 photobooth-frontend:
   replicaCount: 1
   image:
-    repository: baloise-incubator/photobooth/photobooth-frontend
+    repository: photobooth/photobooth-frontend
     tag: 23a58c714a6d3e04fdeccef1e692e253e21c5848
   network:
     http:
