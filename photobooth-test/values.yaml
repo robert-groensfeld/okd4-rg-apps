@@ -24,3 +24,10 @@ photobooth-frontend:
       ingress:
         path: /
         host: photobooth-test.apps.okd.baloise.dev
+      volumeMounts:
+        - mountPath: /etc/nginx/conf.d/
+        name: nginx-dir
+        - mountPath: /var/cache/nginx/client_temp
+          name: nginx-empty
+        - mountPath: /var/run/
+          name: nginx-run
