@@ -17,7 +17,7 @@ photobooth-frontend:
   replicaCount: 1
   image:
     repository: markovski/photobooth-frontend
-    tag: 9b4871ced0c3591d3750f98767a261cfda43dfb
+    tag: 9b4871ced0c3591d3750f98767a261cfda43dfbf
   network:
     http:
       servicePort: 8080
@@ -26,7 +26,7 @@ photobooth-frontend:
         host: photobooth-test.apps.okd.baloise.dev
       volumeMounts:
         - mountPath: /etc/nginx/conf.d/
-        name: nginx-dir
+          name: nginx-dir
         - mountPath: /var/cache/nginx/client_temp
           name: nginx-empty
         - mountPath: /var/run/
