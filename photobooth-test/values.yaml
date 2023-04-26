@@ -17,7 +17,7 @@ photobooth-frontend:
   replicaCount: 1
   image:
     repository: markovski/photobooth-frontend
-    tag: 9e75bf133aa893bae4de54e29889473de1a90b53
+    tag: f39793312e5d8fe85959c0cf786571eb74ac3b69
   network:
     http:
       servicePort: 8080
