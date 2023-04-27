@@ -2,13 +2,16 @@ photobooth-backend:
   replicaCount: 1
   image:
     repository: markovski/photobooth-backend
-    tag: 655881fc7e59c5ab67846f4e16a4d1b6abd84b47
+    tag: 655881fc7e59c5ab67846f4e16a4d1b6abd84b47Z
   network:
     http:
       servicePort: 8090
       ingress:
         path: /api
         host: photobooth-test.apps.okd.baloise.dev
+  env:
+    - name: TESSDATA_PREFIX
+      value: "tessdata"
 
 photobooth-frontend:
   replicaCount: 1
