@@ -9,9 +9,6 @@ photobooth-backend:
       ingress:
         path: /api
         host: photobooth-test.apps.okd.baloise.dev
-  env:
-    - name: TESSDATA_PREFIX
-      value: "tessdata"
 
 photobooth-frontend:
   replicaCount: 1
