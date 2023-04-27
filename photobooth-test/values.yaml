@@ -2,7 +2,7 @@ photobooth-backend:
   replicaCount: 1
   image:
     repository: markovski/photobooth-backend
-    tag: f319246d179515510feb6ba91bb2cba295729a0d
+    tag: 622520c0222edd7ee19b7517bc50c34760858b7b
   network:
     http:
       servicePort: 8090
