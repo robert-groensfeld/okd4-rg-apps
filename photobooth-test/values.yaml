@@ -1,14 +1,4 @@
-photobooth-backend:
-  replicaCount: 1
-  image:
-    repository: markovski/photobooth-backend
-    tag: fb3a86bfa1a775983f7c5b699dcd7eff9f7b961c
-  network:
-    http:
-      servicePort: 8090
-      ingress:
-        path: /api
-        host: photobooth-test.apps.okd.baloise.dev
+
 
 photobooth-frontend:
   replicaCount: 1
