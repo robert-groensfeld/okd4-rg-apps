@@ -1,5 +1,5 @@
 photobooth-backend:
-  replicaCount: 1
+  replicaCount: 0
   image:
     repository: markovski/photobooth-backend
     tag: 3dedbfed0e695ca00e344bf96940abb9d2e3f90f
