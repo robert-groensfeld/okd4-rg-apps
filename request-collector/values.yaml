@@ -1,0 +1,12 @@
+request-collector:
+  replicaCount: 1
+  image:
+    repository: rgroensfeld/request-collector
+    tag: latest
+  network:
+    http:
+      servicePort: 8080
+      ingress:
+        path: /api
+        host: request-collector.apps.okd.baloise.dev
+
