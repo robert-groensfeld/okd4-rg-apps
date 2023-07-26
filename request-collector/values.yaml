@@ -7,6 +7,5 @@ request-collector:
     http:
       servicePort: 8080
       ingress:
-        path: /api
         host: request-collector.apps.okd.baloise.dev
 
