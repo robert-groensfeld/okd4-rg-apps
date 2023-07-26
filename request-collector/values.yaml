@@ -1,5 +1,5 @@
 request-collector:
-  replicaCount: 2
+  replicaCount: 1
   image:
     repository: rgroensfeld/request-collector
     tag: latest
