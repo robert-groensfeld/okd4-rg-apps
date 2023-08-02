@@ -1,0 +1,11 @@
+testapp:
+  replicaCount: 1
+  image:
+    repository: rgroensfeld/request-collector
+    tag: latest
+  network:
+    http:
+      servicePort: 8080
+      ingress:
+        host: testapp.apps.okd.baloise.dev
+
