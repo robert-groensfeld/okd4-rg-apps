@@ -7,5 +7,5 @@ testapp:
     http:
       servicePort: 8080
       ingress:
-        host: testapp.apps.okd.baloise.dev
+        host: testapp.apps.okd.baloise.dev.wrong.url
 
